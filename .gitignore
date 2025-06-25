@@ -20,8 +20,9 @@ local_settings.py
 *.DS_Store
 migrations/
 
-# Ignore all app-level migrations but keep __init__.py
-*/migrations/[!__init__]*
+# Ignore all app-level migration files but keep __init__.py
+*/migrations/*
+!*/migrations/__init__.py
 
 # --- React ---
 frontend/node_modules/
